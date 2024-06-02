@@ -3,7 +3,7 @@ let otherLinks = document.querySelector(".other-links");
 
 li.addEventListener("mouseover" , function() {
     otherLinks.style.visibility = "visible";
-    otherLinks.style.margin = "0px";
+    otherLinks.style.marginTop = "0px";
 })
 
 li.addEventListener("mouseleave" , function() {
@@ -12,7 +12,7 @@ li.addEventListener("mouseleave" , function() {
 })
 otherLinks.addEventListener("mouseover" , function() {
     otherLinks.style.visibility = "visible";
-    otherLinks.style.margin = "0px";
+    otherLinks.style.marginTop = "0px";
 })
 otherLinks.addEventListener("mouseleave" , function() {
     otherLinks.style.visibility = "hidden";
